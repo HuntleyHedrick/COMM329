@@ -2,14 +2,18 @@ body{
     margin: 0;
     padding: 0;
     color: rgb(226, 226, 226);
+
     background-color: rgb(25, 36, 66);
+
     font-size: 1em;
 }
 
 .navbar{
     display: flex;
     justify-content: space-around;
+
     background-color: #1f1e1e;
+
     padding: 10px;
 }
 
@@ -114,6 +118,7 @@ body{
     font-size: 1.25em;
 }
 
+
 .rslides {
     position: relative;
     list-style: none;
@@ -145,3 +150,4 @@ body{
     width: 100%;
     border: 0;
     }
+
