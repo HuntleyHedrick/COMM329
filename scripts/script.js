@@ -3,9 +3,9 @@ var images = [];	// Images Array
 var time = 7000;	// Time Between Switch
 	 
 // Image List
-images[0] = "https://HuntleyHedrick.github.io/COMM329/images/Clarkson-Logo.png";
-images[1] = "https://HuntleyHedrick.github.io/COMM329/images/download.png";
-images[2] = "https://HuntleyHedrick.github.io/COMM329/images/IMG_8016.JPG";
+images[0] = "./images/Clarkson-Logo.png";
+images[1] = "./images/download.png";
+images[2] = "./images/IMG_8016.JPG";
 
 
 // Change Image
