@@ -3,9 +3,9 @@ var images = [];	// Images Array
 var time = 7000;	// Time Between Switch
 	 
 // Image List
-images[0] = "/images/Clarkson-Logo.png";
-images[1] = "/images/download.png";
-images[2] = "/images/IMG_8016.JPG";
+images[0] = "./images/Clarkson-Logo.png";
+images[1] = "./images/download.png";
+images[2] = "./images/IMG_8016.JPG";
 
 function changeImg(){
 	document.slide.src = images[i];
