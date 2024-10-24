@@ -1,26 +1,21 @@
 var i = 0; 			// Start Point
 var images = [];	// Images Array
 var time = 7000;	// Time Between Switch
-	 
-// Image List
-images[0] = "../images/Clarkson-Logo.png";
-images[1] = "../images/download.png";
-images[2] = "../images/IMG_8016.JPG";
 
-// Change Image
+images[0] = "images/Clarkson-Logo.png";
+images[1] = "images/download.png";
+images[2] = "images/IMG_8016.JPG";
+
 function changeImg(){
 	document.slide.src = images[i];
 
-	// Check If Index Is Under Max
+
 	if(i < images.length - 1){
-	  // Add 1 to Index
 	  i++; 
 	} else { 
-		// Reset Back To O
 		i = 0;
 	}
 
-	// Run function every x seconds
 	setTimeout("changeImg()", time);
 }
 
