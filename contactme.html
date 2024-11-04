@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/contactstyles.css">
+</head>
+<body>
+    <nav class ="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+         <a href="projects.html">Projects</a>
+         <a href="contactme.html"><b>Contact Me</b></a>
+    </nav>
+    <header>
+        <div id = "abouttitle"><h1>Contact Me</h1> </div><h1>
+    </header>
+    <div class="container">
+        <form id="contactForm" action="mailto:dmwells@clarkson.edu" method="POST">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Your first name">
+            <span class="error" id="firstNameError"></span>
+          </div>
+    
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Your last name">
+            <span class="error" id="lastNameError"></span>
+          </div>
+    
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email address">
+            <span class="error" id="emailError"></span>
+          </div>
+    
+          <div class="form-group">
+            <label for="question">Ask a Question</label>
+            <textarea id="question" name="question" rows="5" placeholder="Write your question"></textarea>
+            <span class="error" id="questionError"></span>
+          </div>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    
+
+</body>
+</html>
