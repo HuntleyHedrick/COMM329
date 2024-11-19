@@ -106,6 +106,15 @@ a{
     border-radius: 10px;
 }
 
+.bio-preview2 {
+    text-align: center;
+
+    background: #333333c7;
+    color: rgb(209, 209, 209);
+    padding: 30px;
+    border-radius: 15px;
+}
+
 .resume {
     grid-row: 3;
     grid-column: 3 / span 4;
