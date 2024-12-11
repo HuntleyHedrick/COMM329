@@ -46,6 +46,52 @@
         </form>
       </div>
     
+      <script>
+        document.getElementById("contactForm").addEventListener("submit", function (event) {
+            let isValid = true;
 
+            
+            const firstName = document.getElementById("firstName").value.trim();
+            const lastName = document.getElementById("lastName").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const question = document.getElementById("question").value.trim();
+
+           
+            document.getElementById("firstNameError").style.display = "none";
+            document.getElementById("lastNameError").style.display = "none";
+            document.getElementById("emailError").style.display = "none";
+            document.getElementById("questionError").style.display = "none";
+
+           
+            if (firstName === "") {
+                document.getElementById("firstNameError").style.display = "block";
+                isValid = false;
+            }
+
+           
+            if (lastName === "") {
+                document.getElementById("lastNameError").style.display = "block";
+                isValid = false;
+            }
+
+            
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                document.getElementById("emailError").style.display = "block";
+                isValid = false;
+            }
+
+         
+            if (question === "") {
+                document.getElementById("questionError").style.display = "block";
+                isValid = false;
+            }
+
+           
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+    </script>
 </body>
 </html>

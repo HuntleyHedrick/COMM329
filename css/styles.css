@@ -82,6 +82,17 @@ body{
 
 }
 
+.subabout a{
+    text-decoration: none;
+    color: rgb(41, 74, 165)
+}
+
+.subabout a:hover{
+    text-decoration: none;
+    color: rgb(26, 99, 207)
+}
+
+
 #text{
     width:40%;
     height:  55%;
@@ -89,7 +100,10 @@ body{
     border: 4px solid rgb(228, 228, 228);
     color: rgb(0, 0, 0);
     background-color: rgba(202, 213, 241, 0.801);
-    padding: 15px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 1px;
     border-radius: 10px;    
 }
 

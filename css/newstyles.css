@@ -140,8 +140,14 @@ a{
 .resume{
     text-align: center;
     background-image: url(../images/res.JPG);
-    background-color: #333333;
+    background-color: #5a5959;
     background-blend-mode: multiply;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.resume a{
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgb(29, 59, 143), 1px -1px 0 rgb(29, 59, 143), -1px 1px 0 rgb(29, 59, 143), 1px 1px 0 rgb(29, 59, 143);
+    
 }
 
 footer {
